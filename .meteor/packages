@@ -1,14 +1,27 @@
-# Meteor packages used by this project, one per line.
-#
-# 'meteor add' and 'meteor remove' will edit this file for you,
-# but you can also edit it by hand.
+# see http://docs.vulcanjs.org/packages
 
-backbone
-accounts-base
-accounts-ui
-accounts-password
-accounts-twitter
-router
-moment
-spiderable
-email
+vulcan:core
+
+############ Language Packages ############
+
+vulcan:i18n-en-us
+# vulcan:i18n-es-es
+
+############ Accounts Packages ############
+
+accounts-base@2.0.0
+accounts-password@2.0.0
+# accounts-twitter
+# accounts-facebook
+
+vulcan:debug
+# To run the backoffice
+vulcan:backoffice
+vulcan:accounts
+# Ui
+vulcan:ui-bootstrap
+# vulcan:ui-material
+
+meteortesting:mocha
+apollo
+service-configuration@1.1.0

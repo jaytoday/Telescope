@@ -1,9 +1,0 @@
-{
-  "meteor": {
-    "branch": "master"
-  },
-  "packages": {
-    "router": {},
-    "moment": {}
-  }
-}

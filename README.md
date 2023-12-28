@@ -1,31 +1,70 @@
-Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
+<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/2B3C1z2V2y421p2I0P42/vulcan-logo-noborder.png" width="200">
 
-**Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
+[![Backers on Open Collective](https://opencollective.com/vulcan/backers/badge.svg)](#backers)
 
-# Learn More
-- [Telescope Site](http://telesc.pe)
-- [Telescope Demo](http://demo.telesc.pe)
+ [![Sponsors on Open Collective](https://opencollective.com/vulcan/sponsors/badge.svg)](#sponsors) 
 
-# Features
-- Real-time (of course!)
-- Password-based and/or Twitter auth
-- Notifications
-- Mobile-ready & responsive
-- Invite-only access for reading and/or posting
-- Markdown support
-- Day by day view
+# Vulcan
 
-# Installation
-- Install Meteor
-- Install [Meteorite](https://github.com/oortcloud/meteorite/)
-- Run `mrt`
 
-# Running Telescope on Heroku
-- Use the [Heroku buildpack for Meteorite](https://github.com/oortcloud/heroku-buildpack-meteorite) to push to Heroku: `heroku create --stack cedar --buildpack https://github.com/oortcloud/heroku-buildpack-meteorite.git`
-- Add MongoHQ addon
+Vulcan is a React+GraphQL framework for Meteor. 
 
-# First Run
-- Set the root URL variable used for Twitter auth (on Heroku: `heroku config:add ROOT_URL=http://your_url`)
-- Fill in your Twitter keys
-- The first user account created will automatically be made admin
-- Check out the settings page and fill out basic things like the site's name
+[You might want to discover Vulcan Next](https://github.com/VulcanJS/vulcan-next), a port of Vulcan toward Next.js.
+
+### Install
+
+- [Full video tutorial](https://www.youtube.com/watch?v=aCjR9UrNqVk)
+
+Install the latest version of Node and NPM. We recommend the usage of [NVM](http://nvm.sh).
+
+You can then install [Meteor](https://www.meteor.com/install), which is used as the Vulcan build tool.
+
+Clone the [Vulcan Starter repo](https://github.com/VulcanJS/Vulcan-Starter) locally.
+
+Rename your `sample_settings.json` file to `settings.json`, then:
+
+```sh
+meteor npm install
+meteor npm start
+```
+
+And open `http://localhost:3000/` in your browser.
+
+
+Find more info in the [documentation](http://docs.vulcanjs.org/#Install).
+
+### Links
+
+- [Vulcan Homepage](http://vulcanjs.org)
+- [Documentation](http://docs.vulcanjs.org)
+- [Old Telescope Homepage](http://www.telescopeapp.org)
+
+### Other Versions
+
+[See all releases](https://github.com/VulcanJS/Vulcan/releases).
+
+To update an existing Vulcan app, [see migration doc](MIGRATING.md)) and [changelog](CHANGELOG.md).
+
+You can find the older, non-Apollo version of Telescope Nova on the [nova-classic](https://github.com/VulcanJS/Vulcan/tree/nova-classic) branch. 
+
+You can find the even older, non-React version of Telescope on the [legacy](https://github.com/VulcanJS/Vulcan/tree/legacy) branch.
+
+## Credits
+
+### Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/VulcanJS/Vulcan/graphs/contributors"><img src="https://opencollective.com/vulcan/contributors.svg?width=890&button=false" /></a>
+
+### Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/vulcan#contribute)]
+
+<a href="https://opencollective.com/vulcan#contributors" target="_blank"><img src="https://opencollective.com/vulcan/backers.svg?width=890"></a>
+
+### Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/vulcan#contribute)]
+
+<a href="https://opencollective.com/vulcan#contributors" target="_blank"><img src="https://opencollective.com/vulcan/sponsors.svg?width=890"></a>
